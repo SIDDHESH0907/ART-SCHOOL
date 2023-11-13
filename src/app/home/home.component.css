@@ -1,0 +1,27 @@
+.container {
+    background-image: url(src/assets/poster.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    color: #2f2e2e;
+    display: flex;
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

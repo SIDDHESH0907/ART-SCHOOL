@@ -1,0 +1,44 @@
+.title{
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+.para{
+    font-size: 30px;
+}
+
+.container{
+    height: 100vh;
+    background-image: url(/assets/poster2.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box{
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-wrap: nowrap; */
+    white-space: nowrap;
+}
+
+.button{
+    margin-top: 40px;
+    padding: 10px 45px;
+    background-color: #2f2e2e;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    background-color: #f28241;
+}
